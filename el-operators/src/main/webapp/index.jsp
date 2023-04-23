@@ -61,8 +61,16 @@
 		</tr>
 		
 		<tr>
-		<td>List[0]</td>
-		<td>${ list[0]} </td>
+		<td>List</td>
+		<td>
+			<ul>
+			
+				<c:forEach var="data" items="${list}" >
+					<li><c:out value="${data}"></c:out></li>
+				</c:forEach>
+				
+			</ul>
+			</td>
 		</tr>
 		
 		
