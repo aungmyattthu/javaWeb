@@ -20,10 +20,13 @@ This repository contains my learning materials for J2EE, including sample code s
 
 ## Project Descriptions
 
-- **Project 1:** A simple web application that uses Servlets to display a "Hello World" message.
-- **Project 2:** A basic registration form that allows users to enter their details and stores them in a MySQL database.
-- **Project 3:** A dynamic web application that uses JSPs and JDBC to display the data stored in the MySQL database.
-- **Project 4:** An online shopping application that allows users to browse products and add them to their cart.
+- **communications (communications between servlets)
+- **el-operators (jsp scriptless)
+- **helloJsp (first jsp project)
+- **legacy (legacy servlet for view)
+- **listeners (test listeners and mvc project of shopping cart)
+- **scope-counter (testing application scope, session scope, request scope)
+- **srv-1-hello(first servlet app)
 
 ## Setup Instructions
 
