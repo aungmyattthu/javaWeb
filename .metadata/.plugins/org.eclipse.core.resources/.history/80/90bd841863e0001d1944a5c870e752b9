@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Hello JSP</title>
+<link rel="stylesheet" href="resources/style.css" />
+</head>
+<body>
+	<header>
+		<span class="brand">Hello Jsp</span>
+		<nav>
+			<a class="active" href="#">Hello JSP</a>
+			<a href="#">JSP Actions</a>
+			<a href="#">Directives</a>
+		</nav>
+	</header>
+	<main>
+		<jsp:include page="hello.jsp"></jsp:include>
+	</main>
+</body>
+</html>

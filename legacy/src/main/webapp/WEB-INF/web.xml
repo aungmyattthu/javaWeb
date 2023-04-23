@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="https://jakarta.ee/xml/ns/jakartaee"
+	xmlns:web="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
+	id="WebApp_ID" version="5.0">
+	<description>Legacy Configuration</description>
+	<welcome-file-list>
+		<welcome-file>home.jsp </welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<servlet-name>HelloServlet</servlet-name>
+		<servlet-class>com.jdc.legacy.HelloServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HelloServlet</servlet-name>
+		<url-pattern>/hello</url-pattern>
+		<url-pattern>/count-up</url-pattern>
+		<url-pattern>/greeting</url-pattern>
+	</servlet-mapping>
+	<filter>
+		<display-name>LegacyFilter</display-name>
+		<filter-name>GreetMessageHelper</filter-name>
+		<filter-class>com.jdc.legacy.LegacyFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>GreetMessageHelper</filter-name>
+		<url-pattern>/greeting</url-pattern>
+	</filter-mapping>
+	<listener>
+		<listener-class>com.jdc.legacy.CounterListener</listener-class>
+	</listener>
+	<error-page>
+		<error-code>404</error-code>
+		<location>/home.jsp</location>
+	</error-page>
+</web-app>

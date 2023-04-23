@@ -1,0 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<header>
+		<span class="brand">Hello Jsp</span>
+		<nav>
+			<a class="active" href="#">Hello JSP</a>
+			<a href="#">JSP Actions</a>
+			<a href="#">Directives</a>
+		</nav>
+	</header>

@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="resources/css" />
+<meta charset="UTF-8">
+<title>JSP ACTION</title>
+</head>
+<body>
+	<jsp:include page="/resouces/nav-bar.jsp">
+		<jsp:param value="actions" name="page"/>
+	</jsp:include>
+</body>
+</html>

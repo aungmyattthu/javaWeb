@@ -1,0 +1,43 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="resources/style.css" />
+<meta charset="UTF-8">
+<title>JSP ACTION</title>
+</head>
+<body>
+	<%
+	if ("1".equals(request.getParameter("forward"))) {
+	%>
+		<jsp:forward page="forward.jsp">
+			<jsp:param value="Hello from Action JSP page" name="message"/>
+		</jsp:forward>
+	<%
+	}
+	%>
+	<jsp:include page="resources/nav-bar.jsp">
+		<jsp:param value="actions" name="page"/>
+	</jsp:include>
+	<main>
+		<h1>JSP ACTION</h1>
+		<section><a href="actions.jsp?forward=1">ForwardDemo</a></section>
+		<section><h3>Use bean</h3>
+		<form action="useBean.jsp">
+			
+				<label for="">Name</label>
+				<input type="text" name="name" placeholder="Enter User Name"/>
+				
+				<label for="">Phone</label>
+				<input type="tel" name="phone" placeholder="Enter User Phone Number"/>
+				
+				<label for="">Email</label>
+				<input type="email" name="email" placeholder="Enter User Email"/>
+			
+		</form>
+		</section>
+		
+	</main>
+</body>
+</html>

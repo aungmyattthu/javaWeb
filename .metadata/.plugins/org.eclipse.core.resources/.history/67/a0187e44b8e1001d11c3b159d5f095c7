@@ -1,0 +1,61 @@
+<%@page import="java.util.List"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>EL Expressions</title>
+</head>
+<body>
+	<%
+		session.setAttribute("data1", 100);
+	session.setAttribute("data2", 200);
+		// application.setAttribute("data1", 20);
+		
+		request.setAttribute("list", List.of("java", "javascript","kotlin","typescript"));
+	%>
+	<h3>Arithmetic operations</h3>
+	
+	<table>
+		<tr>
+			<td>[A+B]</td>
+			<td>${data1}+${data2}=${data1+data2}
+			</td>
+		</tr>
+		<tr>
+			<td>[A-B]</td>
+			<td>${data1}-${data2}=${data1-data2}
+			</td>
+		</tr>
+		<tr>
+			<td>[A*B]</td>
+			<td>${data1}*${data2}=${data1*data2}
+			</td>
+		</tr>
+		<tr>
+			<td>[A/B]</td>
+			<td>${data1}/${data2}=${data1/data2}
+			</td>
+		</tr>
+		<tr>
+			<td>[A%B]</td>
+			<td>${data1}%${data2}=${data1%data2}
+			</td>
+		</tr>
+	</table>
+	
+	<table>
+		
+		<tr>
+		<td>Equal</td>
+		<td>${(data1+100) eq data2 ? "Data 1 is equal to data2" : "Data 1 is not equal to data2" }</td>
+		</tr>
+		
+		<tr>
+		<td>Not Equal</td>
+		<td>${data1  ne data2 ? "Data 1 is not equal to data2" : "Data 1 is equal to data2" }</td>
+		</tr>
+	</table>
+</body>
+</html>

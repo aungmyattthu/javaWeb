@@ -1,0 +1,21 @@
+INDEX VERSION 1.131
+/home/aungmyatthu/J2EE_WorkSpace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1588912246.index
+/listeners/src/main/java
+/home/aungmyatthu/J2EE_WorkSpace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/4154059634.index
+/HTMLTest0/src
+/home/aungmyatthu/J2EE_WorkSpace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1519139461.index
+/HtmlTest/src/main/java
+/home/aungmyatthu/J2EE_WorkSpace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/616195891.index
+/communications/src/main/java
+/home/aungmyatthu/J2EE_WorkSpace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/249985294.index
+/HelloJsp/src/main/java
+/home/aungmyatthu/J2EE_WorkSpace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2209061651.index
+/scope-counter/src/main/java
+/home/aungmyatthu/J2EE_WorkSpace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3689908021.index
+/el-operators/src/main/java
+/home/aungmyatthu/J2EE_WorkSpace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/285942897.index
+/HelloJsp/src/main/java
+/home/aungmyatthu/J2EE_WorkSpace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/548407594.index
+/legacy/src/main/java
+/home/aungmyatthu/work/J2EE_WorkSpace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/285942897.index
+/HelloJsp/src/main/java
